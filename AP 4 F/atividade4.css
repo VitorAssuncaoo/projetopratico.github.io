@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu{
+    width: 400px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.menu-item a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.menu-item a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.nome-site h1 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.carrosel{
+    margin-top: 50px;
+}
+
+.rodapee{
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.rodape-nome{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.rodape-contato a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
